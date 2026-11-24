@@ -96,3 +96,15 @@ button:active {
 .memory-btn:active {
     transform: scale(0.95);
 }
+/* 新增科學計算按鈕樣式 */
+.scientific-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.scientific-buttons button {
+    padding: 12px 8px;
+    font-size: 0.9em;
+}
